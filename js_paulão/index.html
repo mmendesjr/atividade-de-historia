@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>História</title>
+    <link rel="stylesheet" href="style/style.css">
+    
+</head>
+<body>
+    <!--Header-->
+    <header>   
+        <div id="container__header" >
+       
+            <img src="img/logo1.png">   <h1>Atividade de História</h1> 
+        </div>
+            <p>Nome do aluno:<input type="text" placeholder="Insira seu nome Aqui" /></p>  
+       
+    </header>
+    <!--End Header-->
+
+    <!--First Section-->
+    <section>
+        <!--First Box-->
+        <div id="first__box" class="all__box">
+            <h2>1º Fato</h2>
+            <input type="text" class="tittle__box" placeholder="Título" />
+            <label for="firstfile_input">
+                <img src="img/uploadimg.png" id="imagem1__box">
+             </label>
+                <input type="file" id="firstfile_input" class="display__input" onchange="firstSelectImage(event)" accept="image/*"/>
+                <textarea rows="10" maxlength="220" placeholder="Texto (maximo 220 caracters)"></textarea>
+        </div>
+        <!--End First Box-->
+
+        <!--Second Box-->
+        <div id="second__box" class="all__box">
+            <h2>2º Fato</h2>
+            <input type="text" class="tittle__box" placeholder="Título" />
+            <label for="secondfile_input">
+                <img src="img/uploadimg.png" id="imagem2__box">
+            </label>
+                <input type="file" id="secondfile_input"  class="display__input" onchange="secondSelectImage(event)" accept="image/*"/>
+                <textarea rows="10" maxlength="220" placeholder="Texto (maximo 220 caracters)"></textarea>
+        </div>
+        <!--End Second Box-->
+
+        <!--Third Box-->
+        <div id="third__box" class="all__box">
+            <h2>3º Fato</h2>
+            <input type="text" class="tittle__box" placeholder="Título" />
+            <label for="thirdfile_input">
+                <img src="img/uploadimg.png" id="imagem3__box">
+            </label>
+                <input type="file" id="thirdfile_input"   class="display__input" onchange="thirdSelectImage(event)" accept="image/*"/>
+                <textarea rows="10" maxlength="220" placeholder="Texto (maximo 220 caracters)"></textarea>
+        </div>
+        <!--End Third Box-->
+
+        <!--Fourth Box-->
+        <div id="fourth__box" class="all__box">
+            <h2>4º Fato</h2>
+            <input type="text" class="tittle__box" placeholder="Título" />
+            <label for="fourthfile_input">
+                <img src="img/uploadimg.png" id="imagem4__box">
+            </label>
+                <input type="file" id="fourthfile_input"  class="display__input" onchange="fourthSelectImage(event)" accept="image/*"/>
+                <textarea rows="10" maxlength="220" placeholder="Texto (maximo 220 caracters)"></textarea>
+        </div>
+        <!--End Fourth Box-->
+
+        <!--Fifth Box-->
+        <div id="fifth__box" class="all__box">
+            <h2>5º Fato</h2>
+            <input type="text" class="tittle__box" placeholder="Título" />
+            <label for="fifthfile_input">
+                <img src="img/uploadimg.png" id="imagem5__box">
+            </label>
+                <input type="file" id="fifthfile_input"  class="display__input" onchange="fifthSelectImage(event)" accept="image/*"/>
+                <textarea rows="10" maxlength="220" placeholder="Texto (maximo 220 caracters)"></textarea>
+            </div>
+        <!--End Fifth Box-->
+
+    </section>
+    <!--End First Section-->
+
+    <!--Button Finalizar-->
+    
+        <div id="finish">
+
+            <input type="button" id="finish__button" value="Finalizar Atividade" onClick="functionPrint()" />
+            
+        </div>
+
+    <!-- Footer -->
+    <footer><p> Copyright  &copy; 2022 Escola Champagnat: Pinhal</p></footer>
+</body>
+<script src="js/script.js"></script>
+</html>
