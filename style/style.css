@@ -148,8 +148,9 @@ textarea::placeholder {
     color:  #461C58  
   }
 
-.tittle__box:hover{
+.tittle__box:hover , .tittle__box:focus{
     transform: scale(1.5);
+    width: 70%;
 }
 
 
